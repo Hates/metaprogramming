@@ -16,7 +16,3 @@ puts klass_a
 puts A.new.instance_variable_get "@a"
 puts A.send(:class_variable_get, "@@a")
 puts A.new.send(:initialize)
-
-
-
-
